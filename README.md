@@ -3,12 +3,16 @@
 
 **Author Name**: Hamad Dwairi
 
-## WRRC
-![image](./WRRC.jpeg)
+
+## UPDATED WRRC
+![image](./assets/WRRC22.jpg)
+
 
 ## Overview
-whenever the client sends a request,the server receives it
-looks into it and gets back with the response
+Whenevr the client sends a httpRequest , the Server receives it
+and sends a httpRequest to the 3rdPartyServer , once the 3rdPartyServer
+sends back the response back with the JSON data to the Server , the Server
+sends a response back to the client side
 
 ## Getting Started
 1- Create server.js file
@@ -29,4 +33,3 @@ looks into it and gets back with the response
 
 ## Project Features
 - You can explore your favorite movies
-- You can check movie information and details
