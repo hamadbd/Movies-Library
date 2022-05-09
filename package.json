@@ -12,7 +12,7 @@
     "url": "git+https://github.com/hamadbd/Movies-Library.git"
   },
   "keywords": [],
-  "author": "Mohammad Naji Alkresheh",
+  "author": "Hamad Dwairi",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/hamadbd/Movies-Library/issues"
@@ -21,6 +21,7 @@
   "dependencies": {
     "axios": "^0.26.0",
     "dotenv": "^16.0.0",
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "pg": "^8.7.3"
   }
 }
