@@ -2,7 +2,7 @@
 //console.log("test");
 
 const express = require("express");
-const movie = require("./Movie_Data/data.json");
+//const movie = require("./Movie_Data/data.json");
 const app = express();
 const axios = require("axios");
 const dotenv = require("dotenv");
@@ -14,7 +14,7 @@ const APIKEY = process.env.APIKEY;
 const DATABASE_URL = process.env.DATABASE_URL;
 const PORT = process.env.PORT;
 
-// const client = new pg.Client(DATABASE_URL);
+//const client = new pg.Client(DATABASE_URL);
 const client = new pg.Client({
     connectionString: process.env.DATABASE_URL,
     ssl: { rejectUnauthorized: false }
@@ -229,14 +229,14 @@ function serverError(error) {
         status: 500,
         message: error.message
     }
-    console.log(err);
+    //console.log(err);
 
 }
 //Connect to DB
 client.connect()
     .then(() => {
         app.listen(PORT, () => {
-            console.log("Test :)");
+            //console.log("Test :)");
         });
     }).catch(error => {
         serverError(error);
