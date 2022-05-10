@@ -31,6 +31,9 @@ We continue building on the steps from the day before Additions 1- Instead of re
 ![image](./assets/newDR.jpg)
 adding data to the DB
 
+## POST+GET AND PUT+DELETE WRRC
+![image](./assets/newMiro.jpg)
+POST GET DELETE
 
 ## Overview
 Whenevr the client sends a httpRequest , the Server receives it
